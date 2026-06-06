@@ -20,7 +20,7 @@ AI 가구 배치 프로젝트는 방 구조 데이터를 기반으로 어떤 가
 
 ## 목적
 
-이 모듈은 FloorplanSP의 자동 가구 배치 기능을 위해 다음을 수행합니다.
+이 모듈은 Planterior AI의 자동 가구 배치 기능을 위해 다음을 수행합니다.
 
 - 가구 배치용 scene dataset 생성
 - PyQt6 기반 수동 어노테이션
@@ -130,7 +130,7 @@ Furniture Tokens
 
 ---
 
-## FloorplanSP와의 연결
+## Planterior AI와의 연결
 
 ```text
 Confirmed Room Structure

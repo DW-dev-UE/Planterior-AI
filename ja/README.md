@@ -3,23 +3,20 @@
   <a href="../ko/README.md">KR 한국어</a> &nbsp;|&nbsp;
   <a href="../ja/README.md">JP 日本語</a>
 </p>
+# Planterior AI
 
+**Planterior AI** は、2Dマンション間取り画像を入力として、AI解析、ユーザー確認、Unreal Engine 5 による3D室内空間の自動生成、AI家具配置、CAD出力までをつなぐ統合パイプラインです。
 
-# FloorplanSP
+**Planterior** は **Floorplan** と **Interior** を組み合わせた名前です。  
+2D図面を理解し、確認し、編集可能な3Dインテリア空間へ変換する流れを表しています。
 
-**FloorplanSP** は、2Dマンション間取り画像を入力として、AI解析、ユーザー確認、Unreal Engine 5 による3D室内空間の自動生成、AI家具配置、CAD出力までをつなぐ統合パイプラインです。
-
-> このリポジトリはポートフォリオ公開用のドキュメントリポジトリです。実際のプロダクションソースコードは含まれていません。  
-> FloorplanSPはAWSベースのクラウドインフラを利用し、SaaSバックエンド運用、APIアクセス、ストレージ拡張、AI inference worker分離を想定した構成です。
-
-> このリポジトリはポートフォリオ公開用のドキュメントリポジトリです。実際のソースコードは含めず、スクリーンショットと技術説明で構成します。
-
+このリポジトリはポートフォリオ公開用のドキュメントリポジトリです。実際のプロダクションソースコード、非公開モデル、デプロイスクリプト、credential、private datasetは含まれていません。
 
 ---
 
 ## Tech Stack
 
-> 以下のスタックは、FloorplanSP内で各技術が担当した役割を基準に整理しています。
+> 以下のスタックは、Planterior AI内で各技術が担当した役割を基準に整理しています。
 
 ### ENGINE
 
@@ -160,7 +157,7 @@
 
 ## Project Overview
 
-FloorplanSPでは、ユーザーが間取り画像をアップロードすると、サーバーが構造要素を解析し、UE5クライアント上で壁、ドア、窓、部屋領域を確認した後、確認済みデータをもとに3D空間をプロシージャルに生成します。
+Planterior AIでは、ユーザーが間取り画像をアップロードすると、サーバーが構造要素を解析し、UE5クライアント上で壁、ドア、窓、部屋領域を確認した後、確認済みデータをもとに3D空間をプロシージャルに生成します。
 
 <p align="center">
   <img src="../assets/screenshots/overview/01-service-flow.png" width="860" alt="スクリーンショット領域: サービス全体フロー">
@@ -186,7 +183,7 @@ FloorplanSPでは、ユーザーが間取り画像をアップロードすると
 ```text
 User Login
 	-> Project Create / Load
-	-> Floorplan Image Upload
+	-> Planterior Image Upload
 	-> Scale Confirm
 	-> AI Structure Detection
 	-> Wall Review
@@ -216,7 +213,7 @@ User Login
 ## Architecture
 
 ```text
-2D Floorplan Image
+2D Planterior Image
 	-> FastAPI SaaS Backend
 		-> Preprocess
 		-> Scale Manager

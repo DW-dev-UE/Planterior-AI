@@ -7,7 +7,7 @@
 
 # SaaS Backend
 
-The FloorplanSP backend is a FastAPI-based SaaS server that connects the AI floorplan pipeline with UE5 project persistence and review workflows.
+The Planterior AI backend is a FastAPI-based SaaS server that connects the AI floorplan pipeline with UE5 project persistence and review workflows.
 
 <p align="center">
   <img src="../../assets/screenshots/technical/02-saas-backend.png" width="860" alt="Screenshot slot: SaaS backend dashboard and API flow">
@@ -39,7 +39,7 @@ The FloorplanSP backend is a FastAPI-based SaaS server that connects the AI floo
 UE5 Client
 	-> Login
 	-> Project Create / Load
-	-> Floorplan Upload
+	-> Planterior Upload
 	-> Scale Confirm
 	-> Preprocess
 	-> Structure Detect

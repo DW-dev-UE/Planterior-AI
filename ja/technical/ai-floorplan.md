@@ -35,7 +35,7 @@ AI認識モジュールは、間取り画像から次の構造要素を抽出し
 ## Recognition Pipeline
 
 ```text
-Input Floorplan Image
+Input Planterior Image
 	-> Preprocess
 		-> Crop
 		-> Deskew

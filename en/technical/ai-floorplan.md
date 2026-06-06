@@ -35,7 +35,7 @@ The AI recognition module extracts the following structural elements from a floo
 ## Recognition Pipeline
 
 ```text
-Input Floorplan Image
+Input Planterior Image
 	-> Preprocess
 		-> Crop
 		-> Deskew

@@ -3,23 +3,20 @@
   <a href="../ko/README.md">KR 한국어</a> &nbsp;|&nbsp;
   <a href="../ja/README.md">JP 日本語</a>
 </p>
+# Planterior AI
 
+**Planterior AI**는 2D 아파트 평면도 이미지를 입력받아 AI 분석, 사용자 검수, Unreal Engine 5 기반 3D 실내 공간 자동 생성, AI 가구 배치, CAD 도면 내보내기까지 연결하는 통합 파이프라인 프로젝트입니다.
 
-# FloorplanSP
+**Planterior**는 **Floorplan**과 **Interior**를 결합한 이름입니다.  
+도면을 이해하고, 검수하고, 3D 인테리어 공간으로 생성하는 전체 흐름을 표현합니다.
 
-**FloorplanSP**는 2D 아파트 평면도 이미지를 입력받아 AI 분석, 사용자 검수, Unreal Engine 5 기반 3D 실내 공간 자동 생성, AI 가구 배치, CAD 도면 내보내기까지 연결하는 통합 파이프라인 프로젝트입니다.
-
-> 이 저장소는 포트폴리오 공개용 문서 저장소입니다. 실제 프로덕션 소스코드는 포함하지 않습니다.  
-> FloorplanSP는 AWS 기반 클라우드 인프라를 사용해 SaaS 백엔드 운영, API 접근, 저장소 확장, AI inference worker 분리 확장성을 고려한 구조로 설계되었습니다.
-
-> 이 저장소는 포트폴리오 공개용 문서 저장소입니다. 실제 소스코드는 포함하지 않으며, 주요 기능은 스크린샷과 기술 설명으로 정리합니다.
-
+이 저장소는 포트폴리오 공개용 문서 저장소입니다. 실제 프로덕션 소스코드, 비공개 모델 가중치, 배포 스크립트, credential, private dataset은 포함하지 않습니다.
 
 ---
 
 ## Tech Stack
 
-> 아래 스택은 단순 나열이 아니라, FloorplanSP 프로젝트에서 각 기술이 담당한 역할 기준으로 정리했습니다.
+> 아래 스택은 단순 나열이 아니라, Planterior AI 프로젝트에서 각 기술이 담당한 역할 기준으로 정리했습니다.
 
 ### ENGINE
 
@@ -160,7 +157,7 @@
 
 ## Project Overview
 
-FloorplanSP는 사용자가 평면도 이미지를 업로드하면 서버가 도면 구조를 분석하고, UE5 클라이언트에서 사용자가 벽, 문, 창문, 방 영역을 검수한 뒤, 검수된 데이터를 기반으로 3D 공간을 절차적으로 생성하는 시스템입니다.
+Planterior AI는 사용자가 평면도 이미지를 업로드하면 서버가 도면 구조를 분석하고, UE5 클라이언트에서 사용자가 벽, 문, 창문, 방 영역을 검수한 뒤, 검수된 데이터를 기반으로 3D 공간을 절차적으로 생성하는 시스템입니다.
 
 <p align="center">
   <img src="../assets/screenshots/overview/01-service-flow.png" width="860" alt="서비스 전체 흐름 스크린샷 영역">
@@ -186,7 +183,7 @@ FloorplanSP는 사용자가 평면도 이미지를 업로드하면 서버가 도
 ```text
 User Login
 	-> Project Create / Load
-	-> Floorplan Image Upload
+	-> Planterior Image Upload
 	-> Scale Confirm
 	-> AI Structure Detection
 	-> Wall Review
@@ -216,7 +213,7 @@ User Login
 ## Architecture
 
 ```text
-2D Floorplan Image
+2D Planterior Image
 	-> FastAPI SaaS Backend
 		-> Preprocess
 		-> Scale Manager

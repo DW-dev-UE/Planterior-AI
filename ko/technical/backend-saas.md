@@ -7,7 +7,7 @@
 
 # SaaS 백엔드
 
-FloorplanSP 백엔드는 FastAPI 기반 서버로, AI 도면 분석 파이프라인과 UE5 클라이언트의 프로젝트 저장/복원을 연결합니다.
+Planterior AI 백엔드는 FastAPI 기반 서버로, AI 도면 분석 파이프라인과 UE5 클라이언트의 프로젝트 저장/복원을 연결합니다.
 
 <p align="center">
   <img src="../../assets/screenshots/technical/02-saas-backend.png" width="860" alt="SaaS 백엔드 대시보드 및 API 흐름 스크린샷 영역">
@@ -39,7 +39,7 @@ FloorplanSP 백엔드는 FastAPI 기반 서버로, AI 도면 분석 파이프라
 UE5 Client
 	-> Login
 	-> Project Create / Load
-	-> Floorplan Upload
+	-> Planterior Upload
 	-> Scale Confirm
 	-> Preprocess
 	-> Structure Detect

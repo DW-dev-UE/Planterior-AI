@@ -20,7 +20,7 @@ AI家具配置プロジェクトは、部屋構造データをもとに家具を
 
 ## 目的
 
-このモジュールはFloorplanSPの自動家具配置機能のために、以下を提供します。
+このモジュールはPlanterior AIの自動家具配置機能のために、以下を提供します。
 
 - 家具配置用scene dataset生成
 - PyQt6ベースの手動アノテーション
@@ -131,7 +131,7 @@ Furniture Tokens
 
 ---
 
-## FloorplanSPとの接続
+## Planterior AIとの接続
 
 ```text
 Confirmed Room Structure

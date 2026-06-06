@@ -7,7 +7,7 @@
 
 # AI 도면 분석 기술
 
-이 문서는 FloorplanSP에서 2D 도면 이미지를 구조화된 데이터로 변환하기 위한 AI/CV 파이프라인을 설명합니다.
+이 문서는 Planterior AI에서 2D 도면 이미지를 구조화된 데이터로 변환하기 위한 AI/CV 파이프라인을 설명합니다.
 
 <p align="center">
   <img src="../../assets/screenshots/technical/01-yolo-pipeline.png" width="860" alt="YOLO 기반 도면 분석 파이프라인 스크린샷 영역">
@@ -35,7 +35,7 @@ AI 도면 분석 모듈은 평면도 이미지에서 다음 구조 요소를 추
 ## Recognition Pipeline
 
 ```text
-Input Floorplan Image
+Input Planterior Image
 	-> Preprocess
 		-> Crop
 		-> Deskew

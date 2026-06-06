@@ -1,6 +1,6 @@
 ## Tech Stack
 
-> 以下のスタックは、FloorplanSP内で各技術が担当した役割を基準に整理しています。
+> 以下のスタックは、Planterior AI内で各技術が担当した役割を基準に整理しています。
 
 ### ENGINE
 

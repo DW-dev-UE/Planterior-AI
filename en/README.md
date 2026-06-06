@@ -3,23 +3,20 @@
   <a href="../ko/README.md">KR 한국어</a> &nbsp;|&nbsp;
   <a href="../ja/README.md">JP 日本語</a>
 </p>
+# Planterior AI
 
+**Planterior AI** is an integrated pipeline for AI floorplan recognition, user review, Unreal Engine 5 runtime 3D interior generation, AI furniture placement, and CAD export.
 
-# FloorplanSP
+**Planterior** combines **Floorplan** and **Interior**.  
+The name reflects the full workflow of understanding a 2D floorplan and turning it into an editable 3D interior space.
 
-**FloorplanSP** is an integrated pipeline that converts a 2D apartment floorplan image into an AI-reviewed and user-verified 3D interior space generated at runtime in Unreal Engine 5.
-
-> This is a public portfolio documentation repository. The production source code is private and not included.  
-> FloorplanSP uses AWS as the cloud infrastructure layer for SaaS backend operation, API access, storage expansion, and future AI inference worker separation.
-
-> This repository is a public portfolio documentation repository. Source code is private. The project is presented through screenshots, architecture notes, and technical explanations.
-
+This repository is a public portfolio documentation repository. Production source code, private model weights, deployment scripts, credentials, and private datasets are not included.
 
 ---
 
 ## Tech Stack
 
-> The stack below is organized by the actual role each technology plays in FloorplanSP.
+> The stack below is organized by the actual role each technology plays in Planterior AI.
 
 ### ENGINE
 
@@ -64,7 +61,7 @@
 | Refresh Token Rotation | Session persistence and refresh token reuse detection |
 | SQLite | Initial SaaS/local storage for users, sessions, projects, and jobs |
 | Rate Limit / Audit Log | API abuse prevention and user activity history |
-| Multipart Upload | Floorplan image upload |
+| Multipart Upload | floorplan image upload |
 | OpenAPI / Swagger | API testing and documentation |
 | Docker | Deployment candidate and reproducible runtime environment |
 
@@ -160,7 +157,7 @@
 
 ## Project Overview
 
-FloorplanSP allows a user to upload a floorplan image, review AI-detected walls, doors, windows, and rooms, and generate a 3D interior space in UE5 from the verified data.
+Planterior AI allows a user to upload a floorplan image, review AI-detected walls, doors, windows, and rooms, and generate a 3D interior space in UE5 from the verified data.
 
 <p align="center">
   <img src="../assets/screenshots/overview/01-service-flow.png" width="860" alt="Screenshot slot: full service flow">
@@ -186,7 +183,7 @@ FloorplanSP allows a user to upload a floorplan image, review AI-detected walls,
 ```text
 User Login
 	-> Project Create / Load
-	-> Floorplan Image Upload
+	-> Planterior Image Upload
 	-> Scale Confirm
 	-> AI Structure Detection
 	-> Wall Review
@@ -216,7 +213,7 @@ User Login
 ## Architecture
 
 ```text
-2D Floorplan Image
+2D Planterior Image
 	-> FastAPI SaaS Backend
 		-> Preprocess
 		-> Scale Manager

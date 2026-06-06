@@ -1,6 +1,6 @@
 ## Tech Stack
 
-> The stack below is organized by the actual role each technology plays in FloorplanSP.
+> The stack below is organized by the actual role each technology plays in Planterior AI.
 
 ### ENGINE
 
@@ -45,7 +45,7 @@
 | Refresh Token Rotation | Session persistence and refresh token reuse detection |
 | SQLite | Initial SaaS/local storage for users, sessions, projects, and jobs |
 | Rate Limit / Audit Log | API abuse prevention and user activity history |
-| Multipart Upload | Floorplan image upload |
+| Multipart Upload | floorplan image upload |
 | OpenAPI / Swagger | API testing and documentation |
 | Docker | Deployment candidate and reproducible runtime environment |
 

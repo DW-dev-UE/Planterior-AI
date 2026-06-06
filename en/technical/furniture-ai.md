@@ -20,7 +20,7 @@ The Furniture AI project is a Python-based pipeline for generating datasets, ann
 
 ## Goal
 
-This module supports automatic furniture placement in FloorplanSP.
+This module supports automatic furniture placement in Planterior AI.
 
 It provides:
 
@@ -133,7 +133,7 @@ This allows the dataset to be expanded even when manually labeled data is limite
 
 ---
 
-## Connection to FloorplanSP
+## Connection to Planterior AI
 
 ```text
 Confirmed Room Structure
