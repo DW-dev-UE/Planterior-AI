@@ -1,15 +1,8 @@
-# Icon Customization
+# Tech Stack Icon Guide
 
-The README files currently use `https://skillicons.dev` so that the tech stack appears like an icon grid on GitHub.
+The README files use:
 
-To use local icons instead:
+- `skillicons.dev` for common technology icons
+- `img.shields.io` for project-specific technologies that do not have standard icons
 
-1. Put PNG or SVG files in this folder.
-2. Replace the image URLs in `README.md`, `ko/README.md`, `en/README.md`, and `ja/README.md`.
-3. Example:
-
-```html
-<img src="../assets/icons/unreal.svg" width="48" alt="Unreal Engine">
-```
-
-Do not upload private font files, credentials, or licensed assets without permission.
+Cloud provider icons such as AWS/GCP/Azure are intentionally not listed unless you have actual deployment evidence for this project.
