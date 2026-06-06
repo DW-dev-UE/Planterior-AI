@@ -11,13 +11,45 @@
 
 > 이 저장소는 포트폴리오 공개용 문서 저장소입니다. 실제 소스코드는 포함하지 않으며, 주요 기능은 스크린샷과 기술 설명으로 정리합니다.
 
-![Unreal Engine](https://img.shields.io/badge/Unreal%20Engine-5.5-0E1128?style=for-the-badge&logo=unrealengine&logoColor=white)
-![C++](https://img.shields.io/badge/C++-UE%20Runtime-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![Python](https://img.shields.io/badge/Python-AI%20Backend-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-SaaS%20API-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-YOLO%20%2F%20Furniture%20AI-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![CUDA](https://img.shields.io/badge/CUDA-GPU%20Acceleration-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-Deploy%20Ready-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+
+---
+
+## Tech Stack
+
+<table>
+<tr>
+<td valign="top" width="160"><b>ENGINE</b></td>
+<td>
+	<img src="https://skillicons.dev/icons?i=unreal&theme=dark" />
+</td>
+</tr>
+<tr>
+<td valign="top"><b>LANGUAGE</b></td>
+<td>
+	<img src="https://skillicons.dev/icons?i=c,cpp,python,react&theme=dark" />
+</td>
+</tr>
+<tr>
+<td valign="top"><b>AI</b></td>
+<td>
+	<img src="https://skillicons.dev/icons?i=pytorch,tensorflow&theme=dark" />
+</td>
+</tr>
+<tr>
+<td valign="top"><b>CLOUD</b></td>
+<td>
+	<img src="https://skillicons.dev/icons?i=aws,gcp,azure&theme=dark" />
+</td>
+</tr>
+<tr>
+<td valign="top"><b>ETC</b></td>
+<td>
+	<img src="https://skillicons.dev/icons?i=git,docker,github,html,css,vscode&theme=dark" />
+</td>
+</tr>
+</table>
+
+> 아이콘은 GitHub README에서 렌더링되는 외부 이미지 링크를 사용합니다. 완전한 오프라인 저장소로 만들고 싶다면 `assets/icons/`에 직접 아이콘 PNG/SVG를 넣고 경로만 바꾸면 됩니다.
 
 ---
 

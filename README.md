@@ -9,13 +9,43 @@ The source code is private. Screenshots, architecture notes, and technical expla
   <a href="./ja/README.md"><b>JP 日本語</b></a>
 </p>
 
-![Unreal Engine](https://img.shields.io/badge/Unreal%20Engine-5.5-0E1128?style=for-the-badge&logo=unrealengine&logoColor=white)
-![C++](https://img.shields.io/badge/C++-UE%20Runtime-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![Python](https://img.shields.io/badge/Python-AI%20Backend-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-SaaS%20API-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-YOLO%20%2F%20Furniture%20AI-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![CUDA](https://img.shields.io/badge/CUDA-GPU%20Acceleration-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-Deploy%20Ready-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+
+## Tech Stack
+
+<table>
+<tr>
+<td valign="top" width="160"><b>ENGINE</b></td>
+<td>
+	<img src="https://skillicons.dev/icons?i=unreal&theme=dark" />
+</td>
+</tr>
+<tr>
+<td valign="top"><b>LANGUAGE</b></td>
+<td>
+	<img src="https://skillicons.dev/icons?i=c,cpp,python,react&theme=dark" />
+</td>
+</tr>
+<tr>
+<td valign="top"><b>AI</b></td>
+<td>
+	<img src="https://skillicons.dev/icons?i=pytorch,tensorflow&theme=dark" />
+</td>
+</tr>
+<tr>
+<td valign="top"><b>CLOUD</b></td>
+<td>
+	<img src="https://skillicons.dev/icons?i=aws,gcp,azure&theme=dark" />
+</td>
+</tr>
+<tr>
+<td valign="top"><b>ETC</b></td>
+<td>
+	<img src="https://skillicons.dev/icons?i=git,docker,github,html,css,vscode&theme=dark" />
+</td>
+</tr>
+</table>
+
+---
 
 ## Screenshot Slots
 
